@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Sarah Jenkins | Premium Luxury Dentistry</title>
+    <meta name="description"
+        content="Experience world-class, premium dental care with Dr. Jenkins. Aesthetic dentistry, implants, and luxury oral care.">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Heroicons Script -->
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body class="text-gray-200 antialiased selection:bg-[#d4af37] selection:text-[#0f172a] bg-[#0f172a]">
+
+    <!-- Navbar -->
+    <nav id="navbar"
+        class="fixed w-full z-50 transition-all duration-300 py-4 bg-[#0f172a]/90 backdrop-blur-md border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center">
+                <!-- Logo -->
+                <div class="flex items-center gap-3">
+                    <span
+                        class="text-3xl font-bold tracking-tight text-white brand-font uppercase tracking-widest text-[#d4af37]">
+                        Jenkins <span class="text-white font-light text-xl">Dentistry</span>
+                    </span>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="nav-link font-medium text-gray-300 hover:text-[#d4af37]">Home</a>
+                    <a href="#about" class="nav-link font-medium text-gray-300 hover:text-[#d4af37]">About</a>
+                    <a href="#services" class="nav-link font-medium text-gray-300 hover:text-[#d4af37]">Services</a>
+                    <a href="#gallery" class="nav-link font-medium text-gray-300 hover:text-[#d4af37]">Gallery</a>
+                    <a href="#contact" class="nav-link font-medium text-gray-300 hover:text-[#d4af37]">Contact</a>
+
+                    <a href="#contact" class="btn-primary">
+                        Reserve Consultation
+                    </a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button id="menu-btn" class="text-gray-300 hover:text-[#d4af37] focus:outline-none">
+                        <i data-feather="menu" class="w-6 h-6"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu"
+            class="hidden md:hidden bg-[#0f172a] border-t border-gray-800 shadow-lg absolute w-full left-0 mt-4">
+            <div class="px-4 pt-2 pb-6 space-y-1">
+                <a href="#home"
+                    class="block px-3 py-2 text-base font-medium text-gray-300 hover:text-[#d4af37] hover:bg-gray-800 rounded-md">Home</a>
+                <a href="#about"
+                    class="block px-3 py-2 text-base font-medium text-gray-300 hover:text-[#d4af37] hover:bg-gray-800 rounded-md">About</a>
+                <a href="#services"
+                    class="block px-3 py-2 text-base font-medium text-gray-300 hover:text-[#d4af37] hover:bg-gray-800 rounded-md">Services</a>
+                <a href="#gallery"
+                    class="block px-3 py-2 text-base font-medium text-gray-300 hover:text-[#d4af37] hover:bg-gray-800 rounded-md">Gallery</a>
+                <a href="#contact"
+                    class="block px-3 py-2 text-base font-medium text-gray-300 hover:text-[#d4af37] hover:bg-gray-800 rounded-md">Contact</a>
+                <a href="#contact" class="block mt-4 w-full text-center btn-primary">Reserve Consultation</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-[#0f172a]">
+        <div class="absolute inset-0 z-0">
+            <!-- Background Decorations -->
+            <div
+                class="absolute top-0 right-0 w-2/3 h-full bg-[#1e293b]/50 rounded-l-[100px] transform md:translate-x-32 translate-y-16 lg:translate-y-0 pointer-events-none">
+            </div>
+            <div class="absolute -top-40 -right-40 w-96 h-96 bg-[#d4af37] rounded-full blur-[120px] opacity-10"></div>
+            <div class="absolute top-40 -left-20 w-72 h-72 bg-[#1e293b] rounded-full blur-[100px] opacity-40"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="flex flex-col-reverse lg:flex-row items-center gap-12 lg:gap-8">
+                <!-- Text Content -->
+                <div class="w-full lg:w-1/2 mt-12 lg:mt-0 text-center lg:text-left fade-in-up visible">
+                    <span
+                        class="inline-block py-1 px-4 rounded-full bg-[#1e293b] text-[#d4af37] font-medium text-sm mb-6 border border-[#d4af37]/30 shadow-sm uppercase tracking-widest">
+                        ✨ Excellence in Oral Esthetics
+                    </span>
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-normal text-white leading-tight mb-6">
+                        Redefining Modern <br>
+                        <span class="gradient-text italic opacity-90">Dental Luxury</span>
+                    </h1>
+                    <p class="text-lg text-gray-400 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light">
+                        Experience precision, artistry, and uncompromising comfort. Dr. Sarah Jenkins crafts
+                        bespoke smiles in a world-class environment.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <a href="#contact" class="btn-primary">
+                            Discover The Clinic
+                        </a>
+                        <a href="#services" class="btn-outline flex gap-2">
+                            Our Signature Services <i data-feather="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+
+                    <!-- Quick Stats -->
+                    <div class="mt-12 grid grid-cols-3 gap-4 border-t border-gray-800 pt-8">
+                        <div class="text-center lg:text-left">
+                            <h4 class="text-3xl font-medium text-[#d4af37]">VIP</h4>
+                            <p class="text-sm text-gray-500 mt-1 uppercase tracking-wider">Experience</p>
+                        </div>
+                        <div class="text-center lg:text-left">
+                            <h4 class="text-3xl font-medium text-[#d4af37]">20+</h4>
+                            <p class="text-sm text-gray-500 mt-1 uppercase tracking-wider">Years Mastery</p>
+                        </div>
+                        <div class="text-center lg:text-left">
+                            <h4 class="text-3xl font-medium text-[#d4af37]">5.0</h4>
+                            <p class="text-sm text-gray-500 mt-1 uppercase tracking-wider">Five-Star Rating</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Image Grid -->
+                <div class="w-full lg:w-1/2 relative fade-in-up visible" style="transition-delay: 200ms;">
+                    <div
+                        class="relative w-full aspect-[4/5] md:max-w-md lg:max-w-full mx-auto float-anim flex justify-center lg:justify-end">
+                        <!-- Main Image -->
+                        <div
+                            class="absolute inset-4 sm:inset-8 lg:inset-y-0 lg:right-0 lg:left-12 rounded-sm overflow-hidden shadow-2xl z-10 border border-[#d4af37]/30">
+                            <img src="images/dentist.jpg" alt="Premium Clinic" class="w-full h-full object-cover">
+                        </div>
+
+                        <!-- Floating Badge -->
+                        <div
+                            class="absolute bottom-10 -left-6 lg:left-0 z-20 glass-effect p-5 rounded-sm shadow-xl flex items-center gap-4">
+                            <div class="bg-[#d4af37]/20 p-3 rounded-full text-[#d4af37]">
+                                <i data-feather="award" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h5 class="font-normal text-white uppercase tracking-widest text-sm">Award-Winning</h5>
+                                <p class="text-xs text-gray-400 font-light">Cosmetic Surgeon</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-24 bg-[#0a0f1d] relative border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16 fade-in-up">
+                <span class="text-[#d4af37] font-normal uppercase tracking-widest text-sm mb-4 block">Signature
+                    Treatments</span>
+                <h2 class="text-3xl md:text-5xl font-normal text-white mb-6">Bespoke Aesthetics</h2>
+                <p class="text-gray-400 font-light">Combining artistry with cutting-edge technology to curate your
+                    perfect smile.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="service-card rounded-sm p-10 fade-in-up">
+                    <div class="icon-box w-16 h-16 rounded-full flex items-center justify-center mb-8">
+                        <i data-feather="sun" class="w-6 h-6 icon-svg"></i>
+                    </div>
+                    <h3 class="text-xl font-normal text-white mb-4 uppercase tracking-wide">Lumineers & Veneers</h3>
+                    <p class="text-gray-400 mb-8 font-light line-clamp-3">Masterfully crafted porcelain restorations for
+                        a flawless, natural, and radiant appearance.</p>
+                    <a href="#contact"
+                        class="text-[#d4af37] text-sm uppercase tracking-widest hover:text-white flex items-center gap-2 group transition">
+                        Discover <i data-feather="arrow-right"
+                            class="w-4 h-4 transform group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card rounded-sm p-10 fade-in-up" style="transition-delay: 100ms;">
+                    <div class="icon-box w-16 h-16 rounded-full flex items-center justify-center mb-8">
+                        <i data-feather="shield" class="w-6 h-6 icon-svg"></i>
+                    </div>
+                    <h3 class="text-xl font-normal text-white mb-4 uppercase tracking-wide">Implants</h3>
+                    <p class="text-gray-400 mb-8 font-light line-clamp-3">Precision-guided surgical restorations that
+                        seamlessly replace missing teeth with lifelong durability.</p>
+                    <a href="#contact"
+                        class="text-[#d4af37] text-sm uppercase tracking-widest hover:text-white flex items-center gap-2 group transition">
+                        Discover <i data-feather="arrow-right"
+                            class="w-4 h-4 transform group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card rounded-sm p-10 fade-in-up" style="transition-delay: 200ms;">
+                    <div class="icon-box w-16 h-16 rounded-full flex items-center justify-center mb-8">
+                        <i data-feather="smile" class="w-6 h-6 icon-svg"></i>
+                    </div>
+                    <h3 class="text-xl font-normal text-white mb-4 uppercase tracking-wide">Invisalign Elite</h3>
+                    <p class="text-gray-400 mb-8 font-light line-clamp-3">The most advanced and inconspicuous
+                        orthodontic treatment tailored specifically to your facial structure.</p>
+                    <a href="#contact"
+                        class="text-[#d4af37] text-sm uppercase tracking-widest hover:text-white flex items-center gap-2 group transition">
+                        Discover <i data-feather="arrow-right"
+                            class="w-4 h-4 transform group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card rounded-sm p-10 fade-in-up" style="transition-delay: 300ms;">
+                    <div class="icon-box w-16 h-16 rounded-full flex items-center justify-center mb-8">
+                        <i data-feather="activity" class="w-6 h-6 icon-svg"></i>
+                    </div>
+                    <h3 class="text-xl font-normal text-white mb-4 uppercase tracking-wide">Laser Whitening</h3>
+                    <p class="text-gray-400 mb-8 font-light line-clamp-3">Accelerated, sensitivity-free laser
+                        purification revealing up to 8 shades of brilliance instantly.</p>
+                    <a href="#contact"
+                        class="text-[#d4af37] text-sm uppercase tracking-widest hover:text-white flex items-center gap-2 group transition">
+                        Discover <i data-feather="arrow-right"
+                            class="w-4 h-4 transform group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card rounded-sm p-10 fade-in-up" style="transition-delay: 400ms;">
+                    <div class="icon-box w-16 h-16 rounded-full flex items-center justify-center mb-8">
+                        <i data-feather="heart" class="w-6 h-6 icon-svg"></i>
+                    </div>
+                    <h3 class="text-xl font-normal text-white mb-4 uppercase tracking-wide">Aesthetic Contouring</h3>
+                    <p class="text-gray-400 mb-8 font-light line-clamp-3">Subtle architectural modifications using
+                        composite bonding to achieve unparalleled symmetry.</p>
+                    <a href="#contact"
+                        class="text-[#d4af37] text-sm uppercase tracking-widest hover:text-white flex items-center gap-2 group transition">
+                        Discover <i data-feather="arrow-right"
+                            class="w-4 h-4 transform group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                </div>
+
+                <!-- Service CTA -->
+                <div class="service-card relative overflow-hidden rounded-sm p-10 flex flex-col justify-center items-center text-center fade-in-up border-[#d4af37]/30"
+                    style="transition-delay: 500ms; background: linear-gradient(135deg, #1e293b, #0f172a);">
+                    <div class="absolute inset-0 bg-[#d4af37]/5 z-0"></div>
+                    <div class="relative z-10 w-full">
+                        <h3 class="text-2xl font-normal text-white mb-4">Complete Smile Makeover</h3>
+                        <p class="text-gray-400 mb-8 font-light">A holistic transformation curated by Dr. Jenkins.</p>
+                        <a href="#contact" class="btn-outline w-full block">
+                            Consult with the Doctor
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-[#0f172a] border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <!-- Image -->
+                <div class="w-full lg:w-1/2 relative fade-in-up">
+                    <div
+                        class="absolute inset-4 bg-gradient-to-tr from-[#d4af37] to-transparent transform -translate-x-4 translate-y-4 rounded-sm -z-10 opacity-30">
+                    </div>
+                    <img src="images/dentist.jpg" alt="Dr. Sarah Jenkins"
+                        class="w-full h-[600px] object-cover rounded-sm border border-gray-700 filter grayscale hover:grayscale-0 transition duration-700">
+                </div>
+
+                <!-- Content -->
+                <div class="w-full lg:w-1/2 fade-in-up" style="transition-delay: 200ms;">
+                    <span class="text-[#d4af37] font-normal uppercase tracking-widest text-sm mb-4 block">Meet The
+                        Artisan</span>
+                    <h2 class="text-3xl md:text-5xl font-normal text-white mb-8 leading-tight">Dr. Sarah Jenkins,
+                        <span class="italic font-serif text-gray-400 text-3xl">DMD, FACP</span>
+                    </h2>
+                    <p class="text-gray-300 mb-6 text-lg font-light leading-relaxed">
+                        Recognized globally as an authority in aesthetic and restorative dentistry, Dr.Jenkins
+                        seamlessly blends meticulous surgical precision with high artistic vision.
+                    </p>
+                    <p class="text-gray-400 mb-10 font-light leading-relaxed">
+                        Graduating top of his class and subsequently lecturing worldwide, his philosophy centers on
+                        minimally invasive techniques yielding maximum aesthetic impact—in an environment of absolute
+                        tranquility.
+                    </p>
+
+                    <ul class="space-y-4 mb-10 border-l border-[#d4af37]/30 pl-6">
+                        <li class="flex items-center gap-4 text-gray-300 font-light">
+                            <span class="text-[#d4af37]">I.</span> Fellow of the American College of Prosthodontists
+                        </li>
+                        <li class="flex items-center gap-4 text-gray-300 font-light">
+                            <span class="text-[#d4af37]">II.</span> Board Certified Aesthetic Specialist
+                        </li>
+                        <li class="flex items-center gap-4 text-gray-300 font-light">
+                            <span class="text-[#d4af37]">III.</span> Pioneer in Digital Smile Design Architecture
+                        </li>
+                    </ul>
+
+                    <div class="flex items-center gap-8 pt-4">
+                        <img src="images/dentist.jpg"
+                            class="w-20 h-20 rounded-full object-cover filter grayscale opacity-50 border border-gray-800"
+                            alt="Dr. Sarah Jenkins Signature">
+                        <div class="flex flex-col">
+                            <span class="text-[#d4af37] text-2xl font-normal" style="font-family: 'Cinzel', serif;">S.
+                                Jenkins</span>
+                            <span class="text-gray-500 text-xs uppercase tracking-widest mt-1">Founder & Lead
+                                Clinician</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-24 bg-[#0a0f1d] border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16 fade-in-up">
+                <span class="text-[#d4af37] font-normal uppercase tracking-widest text-sm mb-4 block">The
+                    Experience</span>
+                <h2 class="text-3xl md:text-5xl font-normal text-white mb-6">Our Sanctuary</h2>
+                <p class="text-gray-400 font-light">Step into a realm of luxury, where every detail is designed for your
+                    ultimate relaxation.</p>
+            </div>
+
+            <!-- Masonry-ish Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="rounded-sm overflow-hidden group fade-in-up border border-gray-800 relative">
+                    <img src="images/service1.jpg" alt="Gallery Image 1"
+                        class="w-full h-80 object-cover transform group-hover:scale-105 transition duration-700 object-center">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-transparent transition duration-500"></div>
+                </div>
+                <div class="rounded-sm overflow-hidden group fade-in-up border border-gray-800 relative"
+                    style="transition-delay: 100ms;">
+                    <img src="images/service2.jpg" alt="Gallery Image 2"
+                        class="w-full h-80 object-cover transform group-hover:scale-105 transition duration-700 object-center">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-transparent transition duration-500"></div>
+                </div>
+                <!-- Spanning element -->
+                <div class="md:col-span-2 lg:col-span-1 rounded-sm overflow-hidden group fade-in-up border border-gray-800 relative"
+                    style="transition-delay: 200ms;">
+                    <img src="images/service3.jpg" alt="Gallery Image 3"
+                        class="w-full h-80 object-cover transform group-hover:scale-105 transition duration-700 object-center">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-transparent transition duration-500"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Booking Section -->
+    <section id="contact" class="py-24 bg-[#0f172a] border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="glass-effect rounded-sm overflow-hidden flex flex-col lg:flex-row shadow-2xl">
+
+                <!-- Contact Info -->
+                <div
+                    class="bg-[#0a0f1d] border-r border-gray-800 text-white w-full lg:w-2/5 p-12 lg:p-16 flex flex-col justify-between relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-64 h-64 bg-[#d4af37] rounded-full blur-[100px] opacity-10">
+                    </div>
+                    <div class="relative z-10">
+                        <span
+                            class="text-[#d4af37] font-normal uppercase tracking-widest text-sm mb-4 block">Reservation</span>
+                        <h2 class="text-3xl font-normal mb-6 font-serif">Awaits You</h2>
+                        <p class="text-gray-400 mb-12 font-light text-sm">Our concierge will personally contact you to
+                            finalize the details of your exclusive visit.</p>
+
+                        <div class="space-y-10">
+                            <div class="flex items-start gap-6 border-b border-gray-800 pb-6">
+                                <i data-feather="map-pin" class="w-6 h-6 text-[#d4af37] mt-1"></i>
+                                <div>
+                                    <h4 class="font-normal text-sm uppercase tracking-widest text-gray-500 mb-2">
+                                        Location</h4>
+                                    <p class="text-gray-300 font-light text-sm">450 Golden Avenue, Suite 90<br>Beverly
+                                        Hills, CA 90210</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-6 border-b border-gray-800 pb-6">
+                                <i data-feather="phone" class="w-6 h-6 text-[#d4af37] mt-1"></i>
+                                <div>
+                                    <h4 class="font-normal text-sm uppercase tracking-widest text-gray-500 mb-2">Direct
+                                        Line</h4>
+                                    <p class="text-gray-300 font-light text-sm">+1 (310) 555-0899</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-6">
+                                <i data-feather="mail" class="w-6 h-6 text-[#d4af37] mt-1"></i>
+                                <div>
+                                    <h4 class="font-normal text-sm uppercase tracking-widest text-gray-500 mb-2">
+                                        Concierge</h4>
+                                    <p class="text-gray-300 font-light text-sm">sarahj@dentalclinic.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="w-full lg:w-3/5 p-10 lg:p-16 bg-[#111827]">
+                    <h3 class="text-2xl font-normal text-white mb-8 font-serif">Request Consultation</h3>
+                    <form action="#" method="POST" class="space-y-8"
+                        onsubmit="event.preventDefault(); alert('Your request has been received by our concierge. We will be in touch shortly.');">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div>
+                                <label for="first-name"
+                                    class="block text-xs uppercase tracking-widest text-gray-500 mb-3">Given
+                                    Name</label>
+                                <input type="text" id="first-name"
+                                    class="w-full px-0 py-3 bg-transparent border-b border-gray-700 text-white focus:border-[#d4af37] focus:ring-0 outline-none transition font-light"
+                                    placeholder="Alexander" required>
+                            </div>
+                            <div>
+                                <label for="last-name"
+                                    class="block text-xs uppercase tracking-widest text-gray-500 mb-3">Surname</label>
+                                <input type="text" id="last-name"
+                                    class="w-full px-0 py-3 bg-transparent border-b border-gray-700 text-white focus:border-[#d4af37] focus:ring-0 outline-none transition font-light"
+                                    placeholder="Smith" required>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div>
+                                <label for="email"
+                                    class="block text-xs uppercase tracking-widest text-gray-500 mb-3">Email
+                                    Address</label>
+                                <input type="email" id="email"
+                                    class="w-full px-0 py-3 bg-transparent border-b border-gray-700 text-white focus:border-[#d4af37] focus:ring-0 outline-none transition font-light"
+                                    placeholder="contact@domain.com" required>
+                            </div>
+                            <div>
+                                <label for="phone"
+                                    class="block text-xs uppercase tracking-widest text-gray-500 mb-3">Contact
+                                    Number</label>
+                                <input type="tel" id="phone"
+                                    class="w-full px-0 py-3 bg-transparent border-b border-gray-700 text-white focus:border-[#d4af37] focus:ring-0 outline-none transition font-light"
+                                    placeholder="+1 (000) 000-0000" required>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="service"
+                                class="block text-xs uppercase tracking-widest text-gray-500 mb-3">Treatment of
+                                Interest</label>
+                            <select id="service"
+                                class="w-full px-0 py-3 bg-transparent border-b border-gray-700 text-gray-300 focus:border-[#d4af37] focus:ring-0 outline-none transition font-light appearance-none"
+                                required>
+                                <option value="" disabled selected class="bg-[#0f172a] text-gray-500">Select
+                                    consultation type...</option>
+                                <option value="veneers" class="bg-[#0f172a] text-white">Porcelain Veneers</option>
+                                <option value="implants" class="bg-[#0f172a] text-white">Full Mouth Restoration</option>
+                                <option value="invisalign" class="bg-[#0f172a] text-white">Invisalign Elite</option>
+                                <option value="whitening" class="bg-[#0f172a] text-white">Laser Whitening</option>
+                                <option value="other" class="bg-[#0f172a] text-white">Comprehensive Assessment</option>
+                            </select>
+                        </div>
+
+                        <div class="pt-4">
+                            <button type="submit" class="w-full btn-primary py-4 uppercase tracking-widest text-sm">
+                                Submit Request
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#05080f] text-gray-400 py-16 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <div class="col-span-1 md:col-span-1">
+                    <div class="flex items-center gap-3 mb-6">
+                        <span
+                            class="text-2xl font-bold tracking-tight text-white brand-font uppercase tracking-widest text-[#d4af37]">
+                            Jenkins
+                        </span>
+                    </div>
+                    <p class="text-sm font-light text-gray-500 mb-6 leading-relaxed">The pinnacle of modern aesthetic
+                        dentistry. An exclusive luxury experience awaits.</p>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-normal mb-6 uppercase tracking-widest text-xs">Exlore</h4>
+                    <ul class="space-y-4 text-sm font-light text-gray-500">
+                        <li><a href="#home" class="hover:text-[#d4af37] transition">The Clinic</a></li>
+                        <li><a href="#about" class="hover:text-[#d4af37] transition">Dr. Jenkins</a></li>
+                        <li><a href="#services" class="hover:text-[#d4af37] transition">Treatments</a></li>
+                        <li><a href="#gallery" class="hover:text-[#d4af37] transition">Gallery</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-normal mb-6 uppercase tracking-widest text-xs">Aesthetics</h4>
+                    <ul class="space-y-4 text-sm font-light text-gray-500">
+                        <li><a href="#" class="hover:text-[#d4af37] transition">Veneers</a></li>
+                        <li><a href="#" class="hover:text-[#d4af37] transition">Implants</a></li>
+                        <li><a href="#" class="hover:text-[#d4af37] transition">Restorations</a></li>
+                        <li><a href="#" class="hover:text-[#d4af37] transition">Orthodontics</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-normal mb-6 uppercase tracking-widest text-xs">Privilege Access</h4>
+                    <ul class="space-y-4 text-sm font-light text-gray-500">
+                        <li class="flex justify-between border-b border-gray-800 pb-2"><span>Mon - Fri</span> <span
+                                class="text-white">9am - 5pm</span></li>
+                        <li class="flex justify-between border-b border-gray-800 pb-2"><span>Saturday</span> <span
+                                class="text-white">By Appointment</span></li>
+                        <li class="flex justify-between pb-2"><span>Sunday</span> <span class="text-[#d4af37]">Closed
+                                for Rest</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div
+                class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-xs font-light text-gray-600 gap-4 uppercase tracking-widest">
+                <p>&copy; 2026 Jenkins Dentistry. All Rights Reserved.</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="hover:text-[#d4af37] transition"><i data-feather="instagram"
+                            class="w-4 h-4"></i></a>
+                    <a href="#" class="hover:text-[#d4af37] transition"><i data-feather="linkedin"
+                            class="w-4 h-4"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Initialize Feather Icons
+        feather.replace();
+    </script>
+</body>
+
+</html>
